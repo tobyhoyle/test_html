@@ -1,7 +1,7 @@
 import unittest
 
 from main import text_node_to_html_node
-from textnode import TextNode
+from textnode import TextNode, TextType
 
 def test_text(self):
     node = TextNode("This is a text node", TextType.TEXT)
